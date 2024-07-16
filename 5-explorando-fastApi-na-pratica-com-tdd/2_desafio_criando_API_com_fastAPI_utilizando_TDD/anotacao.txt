@@ -1,0 +1,17 @@
+# O que é TDD?
+TDD é uma sigla para Test Driven Development, ou Desenvolvimento Orientado
+a Testes. A ideia do TDD é que trabalhemos em ciclos.
+
+## Ciclo do TDD
+1. Escreva um teste que falhe (RED)
+2. Faça o código funcionar (GREEN)
+3. Elimine a redundância (REFACTOR)
+
+## Vantagens do TDD
+* Entregar software de qualidade
+* Testar procurando possíveis falhas
+* Criar testes de integração, testes isolados (unitários)
+* Evitar escrever códigos complexos ou que não sigam os pré-requisitos necessários
+
+## Resumo do projeto
+Desenvolvimento de uma API em FastAPI a partir do TDD

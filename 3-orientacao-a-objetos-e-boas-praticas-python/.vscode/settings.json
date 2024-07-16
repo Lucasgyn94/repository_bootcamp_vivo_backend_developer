@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./curso_01_introducao_programacao_orientada_objetos_python/primeiro_programa_poo_python/src/models",
+        "./curso_01_introducao_programacao_orientada_objetos_python/bicicletaria_poo/src/models"
+    ]
+}

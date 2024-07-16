@@ -1,0 +1,54 @@
+### Criando um ambiente virtual em python:
+$ python3 -m venv nome_ambiente
+ex:
+python3 -m venv .env
+
+Aqui criamos um ambiente virtual chamado .env
+
+### Instalar um pacote
+$ pip install nome_do_pacote
+
+### Desinstalar um pacote
+pip uninstall nome_do_pacote
+
+### Listar pacotes instalados
+pip list
+
+### Atualizar um pacote
+pip install --upgrade nome_do_pacote
+
+### Procurar por pacotes - FUNÇÃO DESCONTINUADA
+pip search termo_de_busca
+
+### Pipenv
+* ferramenta de pacotes que combina gestão de dependências
+com a criação de ambiente virtual para projetos, além de 
+adicionar/remover pacotes automaticamente do arquivo Pipfile
+conforme você instala e desinstala pacotes
+
+### Lista de comandos
+$ pip install pipenv
+$ pipenv install numpy
+$ pipenv uninstall numpy
+$ pipenv lock
+
+
+### Desativar um ambiente virtual
+$ deactivate
+
+### Limpar arquivos restantes depois da desinstalação de um pacote
+$ pipenv clean
+
+### Poetry - Concorrent Pipenv
+* Ferramenta de gerenciamento de dependências Python
+que permite declarar as bibliotecas de que o nosso
+projeto depende e gerencia (instala/atualiza/remove)
+essas bibliotecas para nós. Ele também suporta o 
+empacotamento e a publicação de projetos no PyPI
+
+### Lista de comandos
+$ pip install poetry
+poetry new meu_projeto
+cd meu_projeto
+poetry add numpy
+poetry remove numpy
